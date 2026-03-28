@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "email-triage-openenv"
+version = "0.1.0"
+description = "Email triage environment for the OpenEnv framework"
+requires-python = ">=3.11"
+dependencies = [
+    "openenv-core @ git+https://github.com/meta-pytorch/OpenEnv.git",
+    "fastapi>=0.115",
+    "pydantic>=2.7",
+    "uvicorn>=0.30",
+    "openai>=1.0",
+    "httpx>=0.25",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx"]
+
+[tool.setuptools.packages.find]
+include = ["server*", "models*", "client*"]

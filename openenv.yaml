@@ -1,0 +1,60 @@
+name: email_triage_openenv
+version: "0.1.0"
+description: >
+  Deterministic email triage environment for category classification, prioritization,
+  and routing decisions. Built on the OpenEnv framework.
+author: Team Hijibiji
+
+environment:
+  type: openenv
+  entry_point: server.environment:EmailTriageEnvironment
+  action_model: models:EmailTriageAction
+  observation_model: models:EmailTriageObservation
+  state_model: models:EmailTriageState
+
+tasks:
+  - name: Category Classification
+    difficulty: easy
+    objective: Predict the correct business category for an email.
+  - name: Category And Priority
+    difficulty: medium
+    objective: Predict the correct category and priority.
+  - name: Full Triage Routing
+    difficulty: hard
+    objective: Predict category, priority, owner department, and response action.
+
+api:
+  endpoints:
+    - /health
+    - /reset
+    - /step
+    - /state
+    - /tasks
+    - /docs
+
+evaluation:
+  reward_range:
+    min: 0.0
+    max: 1.0
+  deterministic: true
+
+grading: normalized
+reproducible: true
+
+inference:
+  script: inference.py
+  env_vars:
+    - API_BASE_URL
+    - MODEL_NAME
+    - HF_TOKEN
+
+requirements:
+  python: ">=3.11"
+  dependencies:
+    - openenv-core
+    - fastapi>=0.115
+    - pydantic>=2.7
+    - uvicorn>=0.30
+    - openai>=1.0
+    - httpx>=0.25
+    - openai>=1.68

@@ -1,0 +1,459 @@
+[
+  {
+    "email_id": "email-001",
+    "subject": "Urgent: customer charged twice for March invoice",
+    "sender": "ap@northstar-retail.com",
+    "body": "Our finance team found two charges on the same invoice and needs a refund processed today.",
+    "category": "billing",
+    "priority": "high",
+    "department": "finance",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-002",
+    "subject": "Can not sign in after 2FA reset",
+    "sender": "ops@laneeight.io",
+    "body": "I was forced to reset 2FA and now the account stays locked even with the backup code.",
+    "category": "account_access",
+    "priority": "high",
+    "department": "support",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-003",
+    "subject": "Production checkout throwing null reference exception",
+    "sender": "sre@paperkite.dev",
+    "body": "Customers can not complete payment in production. This is blocking revenue right now.",
+    "category": "technical_support",
+    "priority": "critical",
+    "department": "engineering",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-004",
+    "subject": "Requesting pricing for 300-seat rollout",
+    "sender": "procurement@solsticehealth.org",
+    "body": "We are evaluating vendors and want a quote for an enterprise rollout next quarter.",
+    "category": "sales",
+    "priority": "medium",
+    "department": "sales",
+    "response_action": "forward"
+  },
+  {
+    "email_id": "email-005",
+    "subject": "Guaranteed crypto income from home",
+    "sender": "promo@fastwealth.example",
+    "body": "Limited time offer. Click now to multiply your income and unsubscribe never.",
+    "category": "spam",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "ignore"
+  },
+  {
+    "email_id": "email-006",
+    "subject": "Refund still missing for canceled annual plan",
+    "sender": "controller@redcedar.co",
+    "body": "We canceled three weeks ago and the refund has not arrived. Please confirm status.",
+    "category": "billing",
+    "priority": "medium",
+    "department": "finance",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-007",
+    "subject": "GDPR data deletion request — 30 day deadline",
+    "sender": "legal@eurocorp.de",
+    "body": "Per GDPR Article 17, we request deletion of all personal data associated with our account within 30 days. Failure to comply may result in regulatory action.",
+    "category": "compliance",
+    "priority": "critical",
+    "department": "compliance",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-008",
+    "subject": "Welcome aboard — getting started with your new account",
+    "sender": "success@brightpath.io",
+    "body": "Thanks for signing up! We'd like to schedule an onboarding call this week. What time works for your team?",
+    "category": "onboarding",
+    "priority": "medium",
+    "department": "support",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-009",
+    "subject": "Feature suggestion: dark mode for dashboard",
+    "sender": "ux-team@designhub.co",
+    "body": "Our users have been requesting dark mode for months. Would love to see this on the roadmap.",
+    "category": "feedback",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "acknowledge"
+  },
+  {
+    "email_id": "email-010",
+    "subject": "Password reset link expired before I could use it",
+    "sender": "jsmith@midtownlogistics.com",
+    "body": "I requested a password reset but by the time I checked my email the link had expired. Can you send a new one?",
+    "category": "account_access",
+    "priority": "medium",
+    "department": "support",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-011",
+    "subject": "API rate limiting causing data sync failures",
+    "sender": "devops@streamline.app",
+    "body": "Our integration is hitting 429 errors every hour during peak load. We need the rate limit raised or a bulk endpoint.",
+    "category": "technical_support",
+    "priority": "high",
+    "department": "engineering",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-012",
+    "subject": "Interested in a live demo for our leadership team",
+    "sender": "cto@nexwave.io",
+    "body": "We have budget allocated for Q3 and would like a 30-minute demo with our CTO and VP Eng.",
+    "category": "sales",
+    "priority": "high",
+    "department": "sales",
+    "response_action": "forward"
+  },
+  {
+    "email_id": "email-013",
+    "subject": "Free vacation giveaway — claim your prize",
+    "sender": "offers@tropicaldeals.example",
+    "body": "Congratulations! You have been selected for an all-expenses-paid trip. Click here immediately.",
+    "category": "spam",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "ignore"
+  },
+  {
+    "email_id": "email-014",
+    "subject": "Audit report findings — action required by Friday",
+    "sender": "audit@compliancepartners.com",
+    "body": "The SOC2 audit uncovered three medium-severity findings. Remediation evidence is due by end of week.",
+    "category": "compliance",
+    "priority": "high",
+    "department": "compliance",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-015",
+    "subject": "Invoice discrepancy for order #4821",
+    "sender": "accounts@meridianfoods.com",
+    "body": "The invoice total doesn't match our purchase order. There's a $2,400 overcharge on the line items.",
+    "category": "billing",
+    "priority": "high",
+    "department": "finance",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-016",
+    "subject": "New hire onboarding checklist incomplete",
+    "sender": "hr@talentbridge.co",
+    "body": "Three new engineers start Monday and their accounts haven't been provisioned yet. Please expedite.",
+    "category": "onboarding",
+    "priority": "high",
+    "department": "support",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-017",
+    "subject": "Dashboard latency is unacceptable",
+    "sender": "ops-lead@fastfreight.com",
+    "body": "Pages are taking 12+ seconds to load. This is impacting our dispatchers during peak hours. We need this fixed ASAP.",
+    "category": "technical_support",
+    "priority": "critical",
+    "department": "engineering",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-018",
+    "subject": "Question about enterprise tier pricing",
+    "sender": "finance@urbanstack.io",
+    "body": "We're comparing your enterprise plan against two competitors. Can you send over a detailed pricing breakdown?",
+    "category": "sales",
+    "priority": "medium",
+    "department": "sales",
+    "response_action": "forward"
+  },
+  {
+    "email_id": "email-019",
+    "subject": "Make $5000/week with this one simple trick",
+    "sender": "noreply@quickcash.example",
+    "body": "No experience needed. Start earning today. Limited spots available. Act now before it's too late.",
+    "category": "spam",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "ignore"
+  },
+  {
+    "email_id": "email-020",
+    "subject": "General inquiry about your platform capabilities",
+    "sender": "info@greenleaf.org",
+    "body": "Hi, I stumbled across your website and was curious about what your platform does. Can you send some information?",
+    "category": "general",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "acknowledge"
+  },
+  {
+    "email_id": "email-021",
+    "subject": "Re: Production checkout throwing null reference exception",
+    "sender": "sre@paperkite.dev",
+    "body": "Following up on email-003. The hotfix was deployed but we're seeing a regression in staging. Same null reference on the payment confirmation page. This is still blocking.",
+    "category": "technical_support",
+    "priority": "critical",
+    "department": "engineering",
+    "response_action": "escalate",
+    "related_email_id": "email-003"
+  },
+  {
+    "email_id": "email-022",
+    "subject": "Billing issue but actually need technical help",
+    "sender": "admin@crossfitbayarea.com",
+    "body": "Our monthly bill shows charges for API calls but our integration has been returning 500 errors for two weeks. We shouldn't be charged for failed requests. Can engineering look at the API errors too?",
+    "category": "technical_support",
+    "priority": "high",
+    "department": "engineering",
+    "response_action": "escalate",
+    "ambiguity_note": "Mentions billing but root cause is technical. Category could reasonably be billing or technical_support."
+  },
+  {
+    "email_id": "email-023",
+    "subject": "Cancel subscription and process final refund",
+    "sender": "ops@smallbatch.co",
+    "body": "We've decided to go with another vendor. Please cancel our subscription effective immediately and refund the remaining balance on our annual plan.",
+    "category": "billing",
+    "priority": "medium",
+    "department": "finance",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-024",
+    "subject": "SSO configuration failing silently",
+    "sender": "it@megacorp.com",
+    "body": "We configured SAML SSO per your docs but users get redirected to a blank page. No error messages. This is affecting 2000+ employees.",
+    "category": "technical_support",
+    "priority": "critical",
+    "department": "engineering",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-025",
+    "subject": "Data residency requirements for EU deployment",
+    "sender": "dpo@nordicbank.fi",
+    "body": "We need confirmation that all data for EU customers is stored within EU borders. Please provide your data processing addendum.",
+    "category": "compliance",
+    "priority": "high",
+    "department": "compliance",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-026",
+    "subject": "Thank you — great support experience",
+    "sender": "pm@littlefox.dev",
+    "body": "Just wanted to say your support team was incredibly helpful resolving our API issue last week. Keep up the great work.",
+    "category": "feedback",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "acknowledge"
+  },
+  {
+    "email_id": "email-027",
+    "subject": "Upgrade to premium — unlock exclusive benefits",
+    "sender": "marketing@legitsaas.com",
+    "body": "As a valued customer, you qualify for a 30% discount on our Premium tier. This offer expires in 48 hours.",
+    "category": "general",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "acknowledge",
+    "ambiguity_note": "Promotional but from a legitimate vendor. Could be sales or general."
+  },
+  {
+    "email_id": "email-028",
+    "subject": "Webhook delivery failures since Tuesday",
+    "sender": "backend@paystream.io",
+    "body": "Our webhook endpoint hasn't received any events since Tuesday. We've verified our server is up. Is there an outage on your side?",
+    "category": "technical_support",
+    "priority": "high",
+    "department": "engineering",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-029",
+    "subject": "Need to add 50 more seats to our plan",
+    "sender": "admin@growthworks.co",
+    "body": "Our team has grown and we need to add 50 seats immediately. What's the process and will we be prorated?",
+    "category": "sales",
+    "priority": "medium",
+    "department": "sales",
+    "response_action": "respond",
+    "ambiguity_note": "Could be billing (prorating) or sales (seat expansion)."
+  },
+  {
+    "email_id": "email-030",
+    "subject": "Account suspended without warning",
+    "sender": "ceo@startupxyz.io",
+    "body": "Our entire company account was suspended this morning with no prior notice. We have 80 employees locked out. This is unacceptable and needs immediate resolution.",
+    "category": "account_access",
+    "priority": "critical",
+    "department": "support",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-031",
+    "subject": "Payment method update required",
+    "sender": "billing@yourplatform.com",
+    "body": "The credit card on file for account #7829 expired last month. We attempted to charge three times without success. Please update your payment method to avoid service interruption.",
+    "category": "billing",
+    "priority": "medium",
+    "department": "finance",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-032",
+    "subject": "Penetration test results — critical vulnerabilities found",
+    "sender": "security@redteam-auditors.com",
+    "body": "Our pentest revealed two critical and five high-severity vulnerabilities in your API endpoints. Full report attached. Remediation should begin immediately.",
+    "category": "compliance",
+    "priority": "critical",
+    "department": "compliance",
+    "response_action": "escalate"
+  },
+  {
+    "email_id": "email-033",
+    "subject": "Getting started guide seems outdated",
+    "sender": "newuser@freshstart.io",
+    "body": "I just signed up yesterday and the getting started guide references features that don't seem to exist in the current UI. Can you point me to updated docs?",
+    "category": "onboarding",
+    "priority": "medium",
+    "department": "support",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-034",
+    "subject": "Mobile app crashes on launch after latest update",
+    "sender": "qa@betatesters.org",
+    "body": "Version 4.2.1 crashes immediately on iOS 18. Reproducible on iPhone 15 and 16. Stack trace included below.",
+    "category": "technical_support",
+    "priority": "high",
+    "department": "engineering",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-035",
+    "subject": "Wire transfer for annual enterprise contract",
+    "sender": "treasury@bigbank.com",
+    "body": "We've initiated a wire transfer of $240,000 for the annual enterprise contract. Please confirm receipt and send the signed agreement.",
+    "category": "billing",
+    "priority": "high",
+    "department": "finance",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-036",
+    "subject": "Can we get API access for a proof of concept?",
+    "sender": "architect@cloudnine.tech",
+    "body": "We are evaluating your platform for a large migration project. Is there a sandbox or trial API we can use for a 2-week proof of concept?",
+    "category": "sales",
+    "priority": "medium",
+    "department": "sales",
+    "response_action": "forward"
+  },
+  {
+    "email_id": "email-037",
+    "subject": "Earn a degree in just 2 weeks!",
+    "sender": "admissions@diplomamill.example",
+    "body": "No exams, no classes. Get your accredited degree today. Reply for more information.",
+    "category": "spam",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "ignore"
+  },
+  {
+    "email_id": "email-038",
+    "subject": "Re: Invoice discrepancy for order #4821",
+    "sender": "accounts@meridianfoods.com",
+    "body": "Following up on email-015. We still haven't received the corrected invoice. Our payment is now 15 days overdue because of this. Please prioritize.",
+    "category": "billing",
+    "priority": "critical",
+    "department": "finance",
+    "response_action": "escalate",
+    "related_email_id": "email-015"
+  },
+  {
+    "email_id": "email-039",
+    "subject": "MFA enrollment mandatory for all users by EOD Friday",
+    "sender": "security@internal.corp",
+    "body": "Per our updated security policy, all user accounts must have MFA enabled by end of day Friday. Non-compliant accounts will be suspended.",
+    "category": "compliance",
+    "priority": "high",
+    "department": "compliance",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-040",
+    "subject": "The reporting module needs better export options",
+    "sender": "analyst@datacrunchers.co",
+    "body": "Currently we can only export to CSV. We need Excel and PDF export with custom date ranges. This is a blocker for our monthly board reports.",
+    "category": "feedback",
+    "priority": "medium",
+    "department": "operations",
+    "response_action": "acknowledge",
+    "ambiguity_note": "Could be feedback or technical_support depending on urgency interpretation."
+  },
+  {
+    "email_id": "email-041",
+    "subject": "Account access request for new contractor",
+    "sender": "pm@buildit.agency",
+    "body": "We have a new contractor starting next week who needs read-only access to our project dashboard. Please set up their account.",
+    "category": "onboarding",
+    "priority": "medium",
+    "department": "support",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-042",
+    "subject": "Database migration script failing on large tables",
+    "sender": "dba@megastore.com",
+    "body": "The v3 to v4 migration script times out on tables with more than 10M rows. We have three such tables. Need guidance or a fix.",
+    "category": "technical_support",
+    "priority": "high",
+    "department": "engineering",
+    "response_action": "respond"
+  },
+  {
+    "email_id": "email-043",
+    "subject": "Negotiate volume discount for 1000+ licenses",
+    "sender": "procurement@globalcorp.com",
+    "body": "We're looking to standardize on your platform across all subsidiaries. Approximately 1200 seats. What volume discount can you offer?",
+    "category": "sales",
+    "priority": "high",
+    "department": "sales",
+    "response_action": "forward"
+  },
+  {
+    "email_id": "email-044",
+    "subject": "Your account has been compromised — act now",
+    "sender": "security-alert@phishing.example",
+    "body": "We detected unusual activity on your account. Click the link below to verify your identity and secure your account immediately.",
+    "category": "spam",
+    "priority": "low",
+    "department": "operations",
+    "response_action": "ignore"
+  },
+  {
+    "email_id": "email-045",
+    "subject": "Re: Account suspended without warning",
+    "sender": "ceo@startupxyz.io",
+    "body": "This is my third email about this in 24 hours. 80 people are still locked out. If this isn't resolved in the next 2 hours we're escalating to legal. Reference email-030.",
+    "category": "account_access",
+    "priority": "critical",
+    "department": "support",
+    "response_action": "escalate",
+    "related_email_id": "email-030"
+  }
+]
