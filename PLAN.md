@@ -1,7 +1,7 @@
 # Email Triage OpenEnv — Master Plan
 
 ## Team & Timeline
-- **Team Hijibiji**: Roudraneel (lead), Rijul, Tirthajoti
+- **Team Hijibij**: Roudraneel (lead), Rijul, Tirthajoti
 - **Deadline**: April 7, 2026, 11:59 PM IST
 - **Today**: March 28 — submission window just opened
 - **Decision**: Start fresh following official OpenEnv standards exactly
